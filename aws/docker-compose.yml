@@ -1,0 +1,8 @@
+on: '1'
+services:
+  aws:
+    image: tapasweni/aws
+    entrypoint: aws
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
